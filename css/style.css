@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 52, 121);
+}
+h1 {
+  text-align: center;
+  line-height: 25vh;
+  color: rgb(255, 255, 255);
+  font-family: "Righteous", cursive, sans-serif;
+}
+#container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#getNames {
+  margin: 0 5px;
+  border: none;
+  /* background: rgb(2, 190, 190); */
+  text-align: center;
+  /* color: #ffffff; */
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+#getMax {
+  margin: 0 5px;
+  border: none;
+  /* background: rgb(2, 190, 190); */
+  text-align: center;
+  /* color: #ffffff; */
+  padding: 5px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+#addButton {
+  margin: 0 5px;
+  border: none;
+  background: #ffffff;
+  padding: 10px;
+}
+#names {
+  z-index: 1;
+  padding: 20px;
+  margin: 30px 10px;
+}
+#number {
+  z-index: 1;
+  padding: 20px;
+  margin: 30px 10px;
+}
+#ages {
+  z-index: 1;
+  padding: 20px;
+  margin: 30px 10px;
+}
+#num {
+  padding: 25px;
+  border: 2px solid aqua;
+  background: none;
+  color: #ffffff;
+
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+#name {
+  padding: 25px;
+  border: 2px solid aqua;
+  background: none;
+  color: #ffffff;
+
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+#age {
+  padding: 25px;
+  border: 2px solid aqua;
+  background: none;
+  color: #ffffff;
+
+  font-family: sans-serif;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+#showNum {
+  padding: 25px;
+  border: 2px solid aqua;
+  background: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0;
+}
+#showName {
+  padding: 25px;
+  border: 2px solid aqua;
+  background: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0;
+}
+#showAge {
+  padding: 25px;
+  border: 2px solid aqua;
+  background: none;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0;
+}

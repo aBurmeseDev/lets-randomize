@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Randomize</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 class="cssans">Let's Randomize!</h1>
+    <div id="container">
+    <input type="text" id="getNames" value=" " placeholder="Enter Names" size="30" onfocus="this.value=''" autofocus>
+    <input type="button" id="addButton" value="Add Names" onclick="namesAdded()" >
+      
+    <input type="text" id="getMax" value="" placeholder="Enter Max Number" size="30">
+    <input type="button" id="addButton" value="Max Number" onclick="randomNum()">
+  </div>
+    <div id="container">
+      <div id="names">
+        <button id="name">Names</button>
+        <div id="showName"></div>
+      </div>
+      <div id="ages">
+        <button id="age">Age</button>
+        <div id="showAge"></div>
+      </div>
+
+      <div id="number">
+        <button id="num">Number</button>
+        <div id="showNum"></div>
+      </div>
+      <script src="js/app.js"></script>
+  </body>
+  
+</html>
